@@ -1,7 +1,6 @@
-module.exports = {
-  prefix: process.env.PREFIX || "!",
-  token: process.env.TOKEN,
-  owner: process.env.OWNER_ID,
-  client_id: process.env.CLIENT_ID,
-  test_guild_id: process.env.TEST_GUILD_ID
-};
+{ "prefix": "!", 
+  "token": "your-bot-token", 
+  "owner": "owner-id", 
+  "client_id": "bot-id", 
+  "test_guild_id": "dev-server-id" 
+}
