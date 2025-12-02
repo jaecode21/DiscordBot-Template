@@ -16,7 +16,10 @@ const {
 	REST,
 	Routes
 } = require("discord.js");
-const { token, client_id, test_guild_id } = require("./config.json");
+const token = process.env.TOKEN;
+const client_id = process.env.CLIENT_ID;
+const test_guild_id = process.env.TEST_GUILD_ID;
+
 
 /**
  * From v13, specifying the intents is compulsory.
