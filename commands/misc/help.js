@@ -5,8 +5,8 @@
  * @version 3.3.0
  */
 
-// Deconstructing prefix from config file to use in help command
-const { prefix } = require("./../../config.json");
+// Read prefix (and other settings) from centralized config helper
+const { prefix } = require("./../../config.js");
 
 // Deconstructing EmbedBuilder to create embeds within this command
 const { EmbedBuilder, ChannelType } = require("discord.js");
